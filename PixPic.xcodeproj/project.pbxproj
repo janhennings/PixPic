@@ -780,12 +780,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FDAF46961C47E8AB008060CD /* Build configuration list for PBXNativeTarget "PixPic" */;
 			buildPhases = (
-				894358DA521C070CC1E25897 /* 📦 Check Pods Manifest.lock */,
+				894358DA521C070CC1E25897 /* [CP] Check Pods Manifest.lock */,
 				FDAF466A1C47E8AA008060CD /* Sources */,
 				FDAF466B1C47E8AA008060CD /* Frameworks */,
 				FDAF466C1C47E8AA008060CD /* Resources */,
-				5C76BAE70F2FD16C4C0851EE /* 📦 Embed Pods Frameworks */,
-				AE797737D3B201BB8060F2E9 /* 📦 Copy Pods Resources */,
+				5C76BAE70F2FD16C4C0851EE /* [CP] Embed Pods Frameworks */,
+				AE797737D3B201BB8060F2E9 /* [CP] Copy Pods Resources */,
 				D9119DC22FD9CFE4F968A7C2 /* Embed Pods Frameworks */,
 				7776232A1CEF124B00CAD469 /* ShellScript */,
 				7776232B1CEF253500CAD469 /* ShellScript */,
@@ -811,7 +811,7 @@
 				TargetAttributes = {
 					FDAF466D1C47E8AA008060CD = {
 						CreatedOnToolsVersion = 7.2;
-						DevelopmentTeam = X369K52C4V;
+						DevelopmentTeam = PDW99PC693;
 						SystemCapabilities = {
 							com.apple.BackgroundModes = {
 								enabled = 1;
@@ -879,14 +879,14 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		5C76BAE70F2FD16C4C0851EE /* 📦 Embed Pods Frameworks */ = {
+		5C76BAE70F2FD16C4C0851EE /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "📦 Embed Pods Frameworks";
+			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -921,14 +921,14 @@
 			shellScript = "";
 			showEnvVarsInLog = 0;
 		};
-		894358DA521C070CC1E25897 /* 📦 Check Pods Manifest.lock */ = {
+		894358DA521C070CC1E25897 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "📦 Check Pods Manifest.lock";
+			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -936,14 +936,14 @@
 			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
-		AE797737D3B201BB8060F2E9 /* 📦 Copy Pods Resources */ = {
+		AE797737D3B201BB8060F2E9 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "📦 Copy Pods Resources";
+			name = "[CP] Copy Pods Resources";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1171,8 +1171,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = NO;
 				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_IDENTITY = "iPhone Developer: Sergiy Fesenko (Y8JZQ7JQ9A)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Sergiy Fesenko (Y8JZQ7JQ9A)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				EMBEDDED_CONTENT_CONTAINS_SWIFT = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1187,7 +1187,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.yalantis.PIxPic;
 				PRODUCT_NAME = PixPic;
-				PROVISIONING_PROFILE = "14af9056-c8ec-4aa2-a389-104f032e9bdd";
+				PROVISIONING_PROFILE = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "PixPic/Resources/PixPic-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				TARGETED_DEVICE_FAMILY = 1;
@@ -1201,8 +1201,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = NO;
 				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_IDENTITY = "iPhone Distribution: Sergiy Fesenko (R7JGNRV2SS)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Sergiy Fesenko (R7JGNRV2SS)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				EMBEDDED_CONTENT_CONTAINS_SWIFT = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1217,7 +1217,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.yalantis.PIxPic;
 				PRODUCT_NAME = PixPic;
-				PROVISIONING_PROFILE = "5a26b9d7-0d30-40af-9f91-8dfe25b9ad81";
+				PROVISIONING_PROFILE = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "PixPic/Resources/PixPic-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				TARGETED_DEVICE_FAMILY = 1;
