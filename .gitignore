@@ -21,7 +21,6 @@ DerivedData
 !*.xcodeproj/*.pbxproj
 !*.xcodeproj/xcshareddata
 
-Pods
 .idea
 
 pkg/*
